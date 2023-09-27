@@ -1,0 +1,53 @@
+////////////////////////////////////////////////////////AYUDA MANITO///////////////////////////////////////////////////////////////////
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Método manual: Este método implica que el pentester realiza las acciones de forma directa y personalizada, sin usar herramientas automatizadas o scripts. Un ejemplo de cómo aplicar este método sería el siguiente:
+
+    - El pentester accede al sitio web de Shoppy ([https://shoppy.com]) y observa su diseño, sus funcionalidades, sus productos y sus políticas.
+    - El pentester intenta registrarse como un usuario normal y verifica si el sitio web valida correctamente los datos ingresados, como el correo electrónico, la contraseña o el número de tarjeta de crédito.
+    - El pentester explora las opciones disponibles para el usuario, como el carrito de compras, el historial de pedidos, el perfil o la configuración.
+    - El pentester prueba diferentes entradas en los campos del sitio web, como la búsqueda, el filtro, el comentario o la calificación, y verifica si el sitio web es vulnerable a ataques como la inyección SQL, la inyección XSS o la falsificación de solicitudes entre sitios (CSRF).
+    - El pentester analiza el código fuente del sitio web y busca posibles fallos de seguridad, como comentarios, credenciales, rutas o versiones.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Método OSINT (Open Source Intelligence): Este método se basa en la recolección de información pública y accesible sobre el objetivo, usando fuentes como buscadores, redes sociales, bases de datos, registros públicos o medios de comunicación. Un ejemplo de cómo aplicar este método sería el siguiente:
+
+    - El pentester usa un buscador como Bing o Google para encontrar información sobre Shoppy, como su dirección, su teléfono, su correo electrónico, su fecha de fundación o su misión.
+    - El pentester usa redes sociales como Facebook, Twitter o LinkedIn para encontrar información sobre los empleados, los clientes o los competidores de Shoppy, como sus nombres, sus cargos, sus contactos o sus opiniones.
+    - El pentester usa bases de datos como Shodan o Censys para encontrar información sobre los servidores, los dominios o los servicios asociados a Shoppy, como sus direcciones IP, sus puertos abiertos, sus sistemas operativos o sus certificados SSL.
+    - El pentester usa registros públicos como WHOIS o DNS para encontrar información sobre la propiedad, el registro o la configuración del dominio shoppy.com, como su dueño, su proveedor, su fecha de expiración o sus registros A, MX o NS.
+    - El pentester usa medios de comunicación como periódicos, revistas o blogs para encontrar información sobre la reputación, las noticias o los eventos relacionados con Shoppy, como sus logros, sus problemas, sus alianzas o sus promociones.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Método automatizado: Este método consiste en usar herramientas informáticas que realizan las acciones de forma rápida y eficiente, siguiendo unos parámetros predefinidos. Un ejemplo de cómo aplicar este método sería el siguiente:
+
+    - El pentester usa una herramienta como Nmap o Zmap para realizar un escaneo de puertos del dominio shoppy.com y descubrir qué servicios están corriendo y qué vulnerabilidades pueden tener.
+    - El pentester usa una herramienta como Nikto o Wapiti para realizar un escaneo de vulnerabilidades del sitio web shoppy.com y detectar posibles fallos de seguridad, como directorios listables, archivos sensibles o cabeceras mal configuradas.
+    - El pentester usa una herramienta como Hydra o John the Ripper para realizar un ataque de fuerza bruta al servicio SSH del servidor shoppy.com y tratar de adivinar las credenciales de acceso usando diccionarios o generando combinaciones.
+    - El pentester usa una herramienta como Burp Suite o OWASP ZAP para realizar un análisis dinámico del sitio web shoppy.com y capturar e interceptar las peticiones y respuestas HTTP entre el cliente y el servidor.
+    - El pentester usa una herramienta como DirBuster o Gobuster para realizar un ataque de fuerza bruta al sitio web shoppy.com y tratar de descubrir directorios o archivos ocultos usando listas predefinidas.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Método mixto: Este método consiste en combinar los métodos anteriores para obtener una visión más completa y precisa del objetivo. Un ejemplo de cómo aplicar este método sería el siguiente:
+
+    - El pentester usa una herramienta como Nmap para realizar un escaneo de puertos del dominio shoppy.com y descubre que el puerto 80 está abierto y que el servicio es Apache 2.4.41.
+    - El pentester accede al sitio web shoppy.com y observa que tiene un formulario de inicio de sesión y un enlace a una página de administración.
+    - El pentester usa una herramienta como Nikto para realizar un escaneo de vulnerabilidades del sitio web shoppy.com y detecta que la página de administración tiene una vulnerabilidad de inyección SQL.
+    - El pentester explota la vulnerabilidad de inyección SQL usando una herramienta como sqlmap o manualmente y obtiene acceso a la base de datos del sitio web, donde encuentra los usuarios y las contraseñas de los administradores.
+    - El pentester usa las credenciales obtenidas para iniciar sesión como administrador y acceder al panel de control del sitio web, donde puede modificar los productos, los precios o los pedidos.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Método de ingeniería social: Este método implica interactuar con personas y no solo con sistemas informáticos. Un ejemplo de cómo aplicar este método sería el siguiente:
+
+    - El pentester usa el método OSINT para encontrar información sobre los empleados de Shoppy, como sus nombres, sus cargos, sus correos electrónicos o sus números de teléfono.
+    - El pentester crea un correo electrónico falso que simula ser de Shoppy y que solicita a los empleados que ingresen a un enlace para verificar su identidad o actualizar su contraseña. El enlace lleva a una página falsa que captura las credenciales ingresadas.
+    - El pentester llama por teléfono a los empleados de Shoppy y se hace pasar por un técnico de soporte o un cliente insatisfecho. El pentester trata de obtener información sensible o persuadir a los empleados para que realicen alguna acción, como abrir un archivo adjunto, descargar un programa o revelar una contraseña.
+    - El pentester visita las instalaciones de Shoppy y se hace pasar por un repartidor, un mensajero o un auditor. El pentester trata de acceder a áreas restringidas, robar dispositivos, colocar dispositivos o observar las actividades.
+    - El pentester deja un dispositivo USB infectado con un malware en el estacionamiento o la recepción de Shoppy. El pentester espera a que algún empleado lo encuentre y lo conecte a su computadora, lo que le permitirá al pentester tomar el control remoto del sistema.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
