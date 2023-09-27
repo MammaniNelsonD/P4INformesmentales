@@ -11,3 +11,8 @@ Programa en Python para automatizar a través de una interfaz dinámica de ingre
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+[MONITOTWO - HTB1.pdf](https://github.com/MammaniNelsonD/P4INformesmentales/files/12733537/MONITOTWO.-.HTB1.pdf)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
